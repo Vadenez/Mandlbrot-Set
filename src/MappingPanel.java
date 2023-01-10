@@ -25,10 +25,10 @@ public class MappingPanel extends JPanel {
     public final double uMin = 1;
     public final double vMax = BITMAP_HEIGHT;
     public final double vMin = 1;
-    public final double xMin = -2;
-    public final double yMin = -2;
-    public final double xMax = 2;
-    public final double yMax = 2;
+    public final double xMin = -1;
+    public final double yMin = -1;
+    public final double xMax = 1;
+    public final double yMax = 1;
     private int[][] bitmap;
     private int[] rhs;
     private final int x = 1;
